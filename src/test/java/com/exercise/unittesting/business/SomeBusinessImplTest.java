@@ -21,6 +21,7 @@ class SomeBusinessImplTest {
      * that led to big number of interface implementation and in case you added any functions in the interface you have
      * to iterate over all those implementation to add the newer one
      * and this is not a good practise
+     * the solution is using mocking
      * */
     @Test
     void test_multi_value_arr(){
